@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      background-image: url('https://gimgs2.nohat.cc/thumb/f/640/abstract-hud-technology-background-free-vector--606e9489835145f4ac94.jpg'); /* Background image */
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: rgba(64, 255, 0, 0.8); 
+      padding: 1rem 2rem;
+      text-align: center;
+      position: relative;
+      z-index: 10;
+      border-bottom: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 50px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #fff; /* White text */
+      margin: 0;
+    }
+
+    header .logo {
+      width: 100px;
+      height: auto;
+      border-radius: 50%; 
+    }
+
+    nav {
+      background-color:  rgba(64, 255, 0, 0.8); /* Light green with transparency */
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+      position: relative;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      margin: 0 2rem;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #555;
+    }
+
+  
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .button-box {
+      background-color:  rgba(64, 255, 0, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .button-box:hover {
+      transform: scale(1.05);
+    }
+
+    .button-box h3 {
+      color: #000;
+      font-size: 1.3rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color:  rgba(64, 255, 0, 0.8); /* Light green with transparency */
+      font-size: 1rem;
+      color: #000;
+      border-top: 1px solid #000;
+      box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    footer img {
+      width: 30px; 
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portfolio</h1>
+    <img src="Rye.jpg" alt="Logo" class="logo" />
+  </header>
+
+  <nav>
+    <a href="Home.html">Home</a>
+    <a href="About.html">About</a>  
+    <a href="Skill.html">Skills</a>
+    <a href="Project.html">Project Gallery</a>
+    <a href="Education.html">Education</a>
+  </nav>
+
+  <section>
+    <div class="button-container">
+      <div class="button-box">
+        <h3>PERSONAL INFORMATION ℹ️</h3>
+      </div>
+      <div class="button-box">
+        <h3>BACKGROUND SKILLS 📚</h3>
+      </div>
+    </div>
+    <div class="button-container">
+      <div class="button-box">
+        <h3>PROJECT GALLERY 🖼️</h3>
+      </div>
+      <div class="button-box">
+        <h3>EDUCATIONAL BACKGROUND 🎓</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Connect with me on: 
+      <a href="https://www.facebook.com/ryan.balase.3" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" />
+      </a>
+      <a href="https://www.instagram.com/_rye777/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" />
+      </a>
+      <span>Contact: 092-175-80137</span>
+    </p>
+  </footer>
+
+</body>
+</html>

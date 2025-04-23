@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Rye Project Gallery</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      background-color: lightgreen;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: red;
+      padding: 1rem 2rem;
+      text-align: center;
+      position: relative;
+      z-index: 10;
+      border-bottom: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 50px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #000000;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #333333;
+    }
+
+    nav {
+      background-color: lightgreen;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+      position: relative;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+      margin: 0 2rem;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #555555;
+    }
+
+    section {
+      padding: 6rem 8rem;
+      max-width: 1100px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h2 {
+      color: #000000;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      color: #333333;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .project-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 3rem;
+    }
+
+    .project-item {
+      background-color: white;
+      border: 2px solid #000;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-item img {
+      width: 100%; /* Make image responsive */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 10px; /* Rounded corners */
+    }
+
+    .project-item h3 {
+      color: #000000;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+
+    .project-item p {
+      color: #333333;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: red;
+      font-size: 1rem;
+      color: #000000;
+      border-top: 1px solid #000;
+      box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header .logo {
+      width: 100px;
+      height: auto;
+      border-radius: 50%; 
+      margin-right: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Project Gallery</h1>
+    <img src="Rye.jpg" alt="Logo" class="logo" />
+  </header>
+
+  <nav>
+    <a href="Home.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Skill.html">Skills</a>
+    <a href="Project.html">Project Gallery</a>
+    <a href="Education.html">Education</a>
+  </nav>
+
+  <section>
+    <h2>Project Gallery</h2>
+    <p>This is my programming languages that I used</p>
+
+    <div class="project-list">
+      <div class="project-item">
+        <img src="https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/490144486_732264122465243_3844363040099710368_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VU3hIJS06LAQ7kNvwEUvwNe&_nc_oc=Adm11Vrd_j-b10CgoSxVpBboqJ7p2CLsl6ygGxLlnF9XPymtGFR9Km4ryzOn3zW2UHg&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&_nc_gid=_agv6p_-MOpkgovodvWLhA&oh=00_AfGIGMbUvGN1XDGPGv2g-WCSE70hmwXMF-jTgFEMj86QGA&oe=68000ADE" alt="Web Development" />
+        <h3>Web Develop/HTML</h3>
+        <p>Web development is essential for building interactive, user-friendly online experiences, and it plays a crucial role in modern business and communication.
+
+        </p>
+      </div>
+      <div class="project-item">
+        <img src="https://scontent.fmnl30-2.fna.fbcdn.net/v/t39.30808-6/490748099_732268975798091_1977577003604271696_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1m2hzzB81IUQ7kNvwFj4vck&_nc_oc=AdmtSs1Xzcd-RmkzZnVWDcS5soC86Hk9Xk4x5KeFt6CW6_06hrreBg8uJZe2X3f6z6s&_nc_zt=23&_nc_ht=scontent.fmnl30-2.fna&_nc_gid=IvaAV23nqnOYa2u-W5xmGQ&oh=00_AfE46HeD1e42AmJmEQYtsKa0xikwyJILZqXubsgWyzlumw&oe=67FFE9C7" alt="UI/UX Design" />
+        <h3>C++</h3>
+        <p>C++ is widely used in applications such as game development, embedded systems, and high-performance software.</p>
+      </div>
+      <div class="project-item">
+        <img src="https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/490018400_732279529130369_8934974435088807003_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1xSg2JRzqrkQ7kNvwEcMc6a&_nc_oc=Adk20bzdWOdgy-Vokvx38bVhW92lSDXT0wb5f0uVH5K4-4NVWpzGpneL8FqQBNE9ovU&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&_nc_gid=Uta4z9YK7Uaw4V2t16JwoQ&oh=00_AfGzWq705poUnt-KzZ0-OcP5qFeJZvf0G7j8og9NjR7GFg&oe=67FFE52A" alt="Social Media Content" />
+        <h3>Microsoft Powerpoint</h3>
+        <p>Microsoft PowerPoint is a presentation software developed by Microsoft. It allows users to create, edit, and present slideshows composed of text, images, charts, and multimedia. </p>
+      </div>
+      <div class="project-item">
+        <img src="https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/490018400_732279529130369_8934974435088807003_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1xSg2JRzqrkQ7kNvwEcMc6a&_nc_oc=Adk20bzdWOdgy-Vokvx38bVhW92lSDXT0wb5f0uVH5K4-4NVWpzGpneL8FqQBNE9ovU&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&_nc_gid=Uta4z9YK7Uaw4V2t16JwoQ&oh=00_AfGzWq705poUnt-KzZ0-OcP5qFeJZvf0G7j8og9NjR7GFg&oe=67FFE52A" alt="Mobile App Development" />
+        <h3>Java</h3>
+        <p>Java is a high-level, object-oriented programming language designed for portability, performance, and security.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Connect with me on: 
+        <a href="https://www.facebook.com/ryan.balase.3" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/_rye777/" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" />
+        </a>
+        <span>Contact: 092-175-80137</span>
+      </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Rye Skills</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+     background-color: lightgreen;
+      background-size: cover;
+      background-position: center;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: red; 
+      padding: 1rem 2rem;
+      text-align: center;
+      position: relative;
+      z-index: 10;
+      border-bottom: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 50px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #000;
+      margin: 0;
+    }
+
+    header .logo {
+      width: 100px;
+      height: auto;
+      border-radius: 50%; 
+    }
+
+    nav {
+      background-color: rgba(144, 238, 144, 0.9); /* Light green with transparency */
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+      position: relative;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      margin: 0 2rem;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #555;
+    }
+
+    section {
+      padding: 6rem 8rem;
+      max-width: 1100px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h2 {
+      color: #000;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .content-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background-color: white;
+      border: 2px solid #000;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.1);
+    }
+
+    .card h3 {
+      color: #000;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      color: #333;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(144, 238, 144, 0.9); /* Light green with transparency */
+      font-size: 1rem;
+      color: #000;
+      border-top: 1px solid #000;
+      box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    footer img {
+      width: 30px; 
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Skills</h1>
+    <img src="Rye.jpg" alt="Logo" class="logo" />
+  </header>
+
+  <nav>
+    <a href="Home.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Skill.html">Skills</a>
+    <a href="Project.html">Project Gallery</a>
+    <a href="Education.html">Education</a>
+   
+  </nav>
+
+  <section>
+    <h2>Background Skills</h2>
+    <div class="content-container">
+      <div class="card">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3pwdnRneTdiZ2xrZGowcHFqMXc5bGh5YXg3NG1qYXYwdnBpcHZhdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YcLtmnhYyUlbfq/200.webp" alt="Microsoft applications" />
+        <h3>Microsoft Applications</h3>
+        <p>PowerPoint, Word, and more.</p>
+      </div>
+      <div class="card">    
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTVmZmY1ejI1bmlycXZpajFqc2xhbjJpZWdoZWdsYjQ5enBrdmc5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/78XCFBGOlS6keY1Bil/giphy.webp" alt="Programming Languages" />
+        <h3>Learning HTML, C++, JAVA</h3>
+        <p>Still exploring languages.</p>
+      </div>
+      <div class="card">
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczcyazlpdDdqc2t4cDJ4ajVyN284bXltOG5ocmNhd2RpcW9pbXp5YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EOjLLmafDptIIlikEe/200.webp" alt="Video Editing" />
+        <h3>Video Editing</h3>
+        <p>Using CapCut, Alignmotion.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Connect with me on: 
+      <a href="https://www.facebook.com/ryan.balase.3" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" />
+      </a>
+      <a href="https://www.instagram.com/_rye777/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" />
+      </a>
+      <span>Contact: 092-175-80137</span>
+    </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Rye</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: lightgreen;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: red;
+      padding: 1rem 0;
+      text-align: center;
+      position: relative;
+      z-index: 10;
+      border-bottom: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #000000;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #333333;
+    }
+
+    header .logo {
+      width: 100px; 
+      height: auto;
+      border-radius: 50%;
+    }
+
+    nav {
+      background-color:lightgreen;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      z-index: 10;
+      position: relative;
+
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+      margin: 0 2rem;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #555555;
+    }
+
+    #about {
+      background-color: lightgreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6rem 8rem;
+      color: #000000;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      box-sizing: border-box;
+      box-shadow: 0px -10px 20px -10px rgba(0, 0, 0, 0.2), 0px 10px 20px -10px rgba(0, 0, 0, 0.2); 
+    }
+
+    .about-container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 100%;
+      background-color: lightgreen;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .text-section {
+      flex: 2;
+      padding: 2rem 3rem;
+    }
+
+    .text-section h2 {
+      color: #000000;
+      font-size: 2.5rem;
+      margin-top: 0;
+    }
+
+    .text-section p {
+      color: #333333;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .image-section {
+      flex: 1;
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .image-section img {
+      max-width: 80%;
+      max-height: 300px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color:red;
+      font-size: 1rem;
+      color: #000000;
+      border-top: 1px solid #000;
+      box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Information</h1>
+        <img src="Rye.jpg" alt="Logo" class="logo" />
+      </header>
+
+  
+
+  <nav>
+    <a href="Home.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Skill.html">Skills</a>
+    <a href="Project.html">Project Gallery</a>
+    <a href="Education.html">Education</a>
+    
+  </nav>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="text-section">    
+        <h2>Personal Information</h2>
+        <p>Hello World!🌎🖥️</p>
+            <p>Name: Ryan Hertez Balase</p>
+            <p>  Age: 18 yrs old</p>
+            <p> Birthday: July 10, 2006 </p>
+            <p>🖥️currently taking Bachelor of Science in Information Technology at OLFU! </p>
+      </div>
+      <div class="image-section">
+        <img src="Rye.jpg" alt="Ryan Balase">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p> Connect with me on: 
+        <a href="https://www.facebook.com/ryan.balase.3" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/_rye777/" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" />
+        </a>
+        <span>Contact: 092-175-80137</span>
+      </p></p>
+  </footer>
+
+</body>
+</html>
